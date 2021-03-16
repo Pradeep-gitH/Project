@@ -10,7 +10,7 @@ import ListArray from './ListArray'
 
 const FindFreeSlots=()=>{
 
-const [selectedDateTime, setSelectedDateTime] = useState('10.30 AM');
+const [selectedDateTime, setSelectedDateTime] = useState('09:30 AM');
 const [freeSlotList,setFreeSlotList]=useState([]); 
 const [dateDuration, setDateDuration] = useState('30 min');
 const [timeList,setTimeList]=useState([])
